@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textColor="@color/Green"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresa_nombre"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/Blue"/>
+
+        <EditText
+            android:id="@+id/edApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresa_apellido"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/Blue"/>
+
+        <Spinner
+            android:id="@+id/spColegios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Colegios"
+            android:layout_marginTop="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbFemenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/F" />
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/M" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cbLeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leer"/>
+
+        <CheckBox
+            android:id="@+id/cbVerSeries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_series"/>
+
+        <CheckBox
+            android:id="@+id/cbEscribir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/escribir"/>
+
+        <CheckBox
+            android:id="@+id/cbPeliculas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/peliculas"/>
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#795548"/>
+
+        <Button
+            android:id="@+id/btnLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/irLista"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/Green"/>
+    </LinearLayout>
+</ScrollView>
