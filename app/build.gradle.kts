@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.tuapp.controldeseleccion"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.tuapp.controldeseleccion"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
