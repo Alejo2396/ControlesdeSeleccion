@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ControlesDeSeleccion</string>
+    <string name="titulo">Registro Datos!</string>
+    <string name="tituloVentas">VENTA DE PRODUCTOS</string>
+
+    <string name="ingresa_nombre">Ingrese su nombre</string>
+    <string name="ingresa_apellido">Ingrese su Apellido</string>
+
+    <string name="M">Masculino</string>
+    <string name="F">Femenino</string>
+
+    <string name="leer">Leer</string>
+    <string name="ver_series">Ver Series</string>
+    <string name="escribir">Escribir</string>
+    <string name="peliculas">Peliculas</string>
+
+    <string-array name="Colegios">
+        <item>Selecciona Tu Colegio</item>
+        <item>Colegio Colombo Francés</item>
+        <item>Gimnasio Calibío</item>
+        <item>Colegio Los Andes</item>
+        <item>Colegio San José de Tarbes</item>
+        <item>Seminario Menor Arquidiocesano</item>
+        <item>Colegio Champagnat</item>
+        <item>Colegio Nuestra Señora de Bethlem</item>
+        <item>Colegio Sagrado Corazón de Jesús</item>
+        <item>Colegio Campestre Americano</item>
+        <item>Institucion Educativa Inem Francisco Jose de Caldas</item>
+        <item>Academia</item>
+        <item>Colegio Academia Militar Gral. Tomás Cipriano de Mosquera</item>
+        <item>Institución Educativa José Eusebio Caro </item>
+        <item>Gimnasio Moderno del Cauca</item>
+        <item>Institución Educativa Nuestra Señora del Carmen</item>
+    </string-array>
+
+    <string name="enviar">Enviar</string>
+    <string name="irLista">IrLista</string>
+
+    <string name="Televisor">Televisor</string>
+    <string name="Radio">Radio</string>
+
+    <string name="Precio">Precio</string>
+    <string name="dato">100000.0</string>
+    <string name="dato1">1000.0</string>
+    <string name="dato2">99000.0</string>
+    <string name="Total">Total</string>
+
+
+    <string name="Calcula">CALCULA</string>
+    <string name="descuento">DESCUENTO 10%</string>
+    <string name="descuento2">DESCUENTO 100%</string>
+
+
+
+</resources>
