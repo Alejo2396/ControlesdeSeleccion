@@ -2,6 +2,7 @@
     <string name="app_name">ControlesDeSeleccion</string>
     <string name="titulo">Registro Datos!</string>
     <string name="tituloVentas">VENTA DE PRODUCTOS</string>
+    <string name="prompt_seleccion_equipo">Selecciona un equipo</string>
 
     <string name="ingresa_nombre">Ingrese su nombre</string>
     <string name="ingresa_apellido">Ingrese su Apellido</string>
@@ -50,6 +51,19 @@
     <string name="descuento">DESCUENTO 10%</string>
     <string name="descuento2">DESCUENTO 100%</string>
 
+    <string-array name="equipos">
+        <item>Selecciona Tu Equipo</item>
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Manchester United</item>
+        <item>Bayern Munich</item>
+        <item>Liverpool</item>
+        <item>Juventus</item>
+        <item>PSG</item>
+        <item>Chelsea</item>
+        <item>Manchester City</item>
+        <item>Milan</item>
+    </string-array>
 
 
 </resources>

@@ -102,5 +102,12 @@
             android:text="@string/irLista"
             android:layout_marginTop="8dp"
             android:backgroundTint="@color/Green"/>
+
+        <Button
+            android:id="@+id/btnTeams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Equipos de Fútbol"
+            android:layout_marginTop="20dp"/>
     </LinearLayout>
 </ScrollView>
